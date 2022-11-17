@@ -3,7 +3,7 @@ import React from 'react'
 const HomeContent = () => {
     return (
         <React.Fragment>
-            HomeContent
+            Home Client A
         </React.Fragment>
     )   
 }
