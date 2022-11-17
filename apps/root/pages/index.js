@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 // import { Button } from 'ui'
-import Button from 'ui/components/button'
+import HomeContent from 'ui/pages/home'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-          <Button />
+        <HomeContent/>
       </main>
 
       <footer className={styles.footer}>
