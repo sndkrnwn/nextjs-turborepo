@@ -3,7 +3,7 @@ import React from 'react'
 const HomeContent = () => {
     return (
         <React.Fragment>
-            Home Client B
+           Custom from client B
         </React.Fragment>
     )   
 }

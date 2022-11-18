@@ -62,7 +62,7 @@ export default function Home() {
                     <input className="form-control" placeholder="Account name" onChange={handleChangeAccName} />
                   </div>
                 </div>
-                <div className="form-row">
+                {/* <div className="form-row">
                   <div className="form-group mb-3">
                     <input className="form-control" placeholder="username" onChange={handleChangeUserName} />
                   </div>
@@ -71,7 +71,7 @@ export default function Home() {
                   <div className="form-group mb-3">
                     <input className="form-control" placeholder="Password" type="password" onChange={handleChangePass} />
                   </div>
-                </div>
+                </div> */}
 
                 <button className="btn btn-primary" onClick={handleSubmit}>Login</button>
               </div>

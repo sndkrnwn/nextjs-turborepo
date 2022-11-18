@@ -19,6 +19,7 @@ const Home = () => {
     const Content = custom ? require(`ui/client-custom/${state.accountName}/home/index.js`).default : defaultContent;
     return (
         <div className="container">
+            <p>Default Content from master</p>
             <Content />
         </div>
     )
